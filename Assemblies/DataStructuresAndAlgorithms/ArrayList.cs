@@ -200,7 +200,7 @@ namespace DataStructuresAndAlgorithms
                 {
                     if (position < 0 || position >= size)
                     {
-                        throw new IndexOutOfRangeException("position out of range");
+                        throw new ArgumentOutOfRangeException("position out of range");
                     }
 
                     return array[position];

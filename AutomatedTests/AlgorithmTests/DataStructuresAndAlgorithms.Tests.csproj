@@ -53,6 +53,7 @@
     <Compile Include="BubbleSortTests.cs" />
     <Compile Include="CollectionTests.cs" />
     <Compile Include="EvenOddComparer.cs" />
+    <Compile Include="LinkedListTests.cs" />
     <Compile Include="ListTests.cs" />
     <Compile Include="MergeSortTests.cs" />
     <Compile Include="Person.cs" />

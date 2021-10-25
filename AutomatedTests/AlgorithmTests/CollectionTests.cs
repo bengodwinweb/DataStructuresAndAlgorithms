@@ -66,7 +66,7 @@ namespace DataStructuresAndAlgorithms
 
             var enumerator = list.GetEnumerator();
 
-            Assert.Throws<IndexOutOfRangeException>(delegate { int n = enumerator.Current; });
+            Assert.Throws<ArgumentOutOfRangeException>(delegate { int n = enumerator.Current; });
 
             Assert.IsTrue(enumerator.MoveNext());
             Assert.AreEqual(1, enumerator.Current);
@@ -78,7 +78,7 @@ namespace DataStructuresAndAlgorithms
             Assert.AreEqual(2, enumerator.Current);
 
             Assert.IsFalse(enumerator.MoveNext());
-            Assert.Throws<IndexOutOfRangeException>(delegate { int n = enumerator.Current; });
+            Assert.Throws<ArgumentOutOfRangeException>(delegate { int n = enumerator.Current; });
         }
 
         [Test]
