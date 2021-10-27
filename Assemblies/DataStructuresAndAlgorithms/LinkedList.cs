@@ -9,11 +9,11 @@ namespace DataStructuresAndAlgorithms
 {
     public class LinkedList<T> : ICollection<T>
     {
-        private class LinkedListNode<T>
+        private class LinkedListNode<U>
         {
-            public T Contents { get; set; }
+            public U Contents { get; set; }
 
-            public LinkedListNode<T> Next { get; set; }
+            public LinkedListNode<U> Next { get; set; }
         }
 
         private readonly bool isReferenceType;

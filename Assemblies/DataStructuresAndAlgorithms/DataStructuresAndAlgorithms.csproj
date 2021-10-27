@@ -34,7 +34,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayList.cs" />
+    <Compile Include="AvlTree.cs" />
     <Compile Include="BubbleSort.cs" />
+    <Compile Include="Heap.cs" />
     <Compile Include="ISortingAlgorithm.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="ListExtender.cs" />
